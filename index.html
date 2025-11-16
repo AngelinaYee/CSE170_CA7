@@ -42,8 +42,8 @@
                     <!-- 
                         TASK 1 : When you click the previous and next buttons, the next image should appear.
                     -->
-                    <button class="prev">&#10094;</button>
-                    <button class="next">&#10095;</button>
+                    <button class="prev" onclick="showPrev()">&#10094;</button>
+                    <button class="next" onclick="showNext()">&#10095;</button>
                 </div>
 
 
@@ -55,7 +55,7 @@
                         <!-- 
                             Bonus : When you click on the like button, it is replaced with another image (a filled heart). You can use the following link for the replacement image: "https://static.thenounproject.com/png/5054463-200.png".
                         -->
-                        <img id = "likebtn" src="https://static.thenounproject.com/png/5054463-200.png" alt="Like">
+                        <img id = "likebtn" onclick="likeImage()" src="https://static.thenounproject.com/png/5054463-200.png" alt="Like">
                     
                     </div>
                     <!-- Description of the post -->
