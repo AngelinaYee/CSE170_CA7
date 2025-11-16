@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+    <body>
+    <!-- Title of the Website -->
+    <section class="header">
+        <h2>Instagram Feed</h2> 
+    </section>
+    
+    <section class="main">
+        <div class="wrapper">
+            <!-- Container for a single post -->
+            <div class="post">
+                
+
+                <!-- Information section for the post -->
+                <div class="info">
+                    <!-- User details section -->
+                    <div class="user">
+                        <!-- Profile picture with default image -->
+                        <div class="profile-pic"><img id = "profile-img" src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg"></div>
+                        <!-- Username for the post -->
+                        <p class="username">some_username</p>
+                    </div>
+                </div>
+                
+
+                <!-- Image carousel container -->
+                <div class="carousel-container">
+                    
+                    <!-- Carousel Image -->
+                    <div>
+                        <img class = "carousel" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Russell_Falls_2.jpg/540px-Russell_Falls_2.jpg">
+                    </div>
+
+
+                    <!-- Next and previous buttons -->
+                    
+                    <!-- 
+                        TASK 1 : When you click the previous and next buttons, the next image should appear.
+                    -->
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                </div>
+
+
+                <!-- Content section for the post -->
+                <div class="post-content">
+                    <!-- Reaction wrapper with like button -->
+                    <div class="reaction-wrapper">
+                        
+                        <!-- 
+                            Bonus : When you click on the like button, it is replaced with another image (a filled heart). You can use the following link for the replacement image: "https://static.thenounproject.com/png/5054463-200.png".
+                        -->
+                        <img id = "likebtn" src="https://static.thenounproject.com/png/5054463-200.png" alt="Like">
+                    
+                    </div>
+                    <!-- Description of the post -->
+                    <p class="description"><span>some_username</span>Beautiful pictures from my gallery</p>
+                    <!-- Timestamp of the post -->
+                    <p class="post-time">2 minutes ago</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    </body>
+</html>
